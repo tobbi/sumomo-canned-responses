@@ -1,0 +1,1277 @@
+{
+ "allTestModules": [], 
+ "enable_e10s": false, 
+ "jetpackID": "jid0-RRNeqDusKOP9WDKlL7aGaW9WWvc@jetpack", 
+ "loader": "api-utils/lib/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "canned-responses-for-thunderbird-forums/lib/main.js", 
+ "manifest": {
+  "addon-kit/lib/page-mod.js": {
+   "docsSHA256": "300d8e094b2552762d591c0a8aec2075237a8127664d822726e558d88ec6b4a9", 
+   "jsSHA256": "49834272cb50937037b183f92dc45f14f2c66bd25d5af486021d92d44e2434ff", 
+   "moduleName": "page-mod", 
+   "packageName": "addon-kit", 
+   "requirements": {
+    "api-utils/api-utils": {
+     "path": "api-utils/lib/api-utils.js"
+    }, 
+    "api-utils/content": {
+     "path": "api-utils/lib/content.js"
+    }, 
+    "api-utils/content/loader": {
+     "path": "api-utils/lib/content/loader.js"
+    }, 
+    "api-utils/events": {
+     "path": "api-utils/lib/events.js"
+    }, 
+    "api-utils/list": {
+     "path": "api-utils/lib/list.js"
+    }, 
+    "api-utils/match-pattern": {
+     "path": "api-utils/lib/match-pattern.js"
+    }, 
+    "api-utils/observer-service": {
+     "path": "api-utils/lib/observer-service.js"
+    }, 
+    "api-utils/utils/object": {
+     "path": "api-utils/lib/utils/object.js"
+    }, 
+    "api-utils/utils/registry": {
+     "path": "api-utils/lib/utils/registry.js"
+    }, 
+    "api-utils/xul-app": {
+     "path": "api-utils/lib/xul-app.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "addon-kit/lib/request.js": {
+   "docsSHA256": "0dcf6dc58b1a8beb79b5088bf695e9d025ee652ff47607e523ef6d2367dd1e55", 
+   "jsSHA256": "3635ae58dcb3a406e25e5ad5dcd0d2ccbcd4ee3e7c4e713ea3934766c37c874c", 
+   "moduleName": "request", 
+   "packageName": "addon-kit", 
+   "requirements": {
+    "api-utils/api-utils": {
+     "path": "api-utils/lib/api-utils.js"
+    }, 
+    "api-utils/event/core": {
+     "path": "api-utils/lib/event/core.js"
+    }, 
+    "api-utils/event/target": {
+     "path": "api-utils/lib/event/target.js"
+    }, 
+    "api-utils/heritage": {
+     "path": "api-utils/lib/heritage.js"
+    }, 
+    "api-utils/namespace": {
+     "path": "api-utils/lib/namespace.js"
+    }, 
+    "api-utils/querystring": {
+     "path": "api-utils/lib/querystring.js"
+    }, 
+    "api-utils/utils/object": {
+     "path": "api-utils/lib/utils/object.js"
+    }, 
+    "api-utils/xhr": {
+     "path": "api-utils/lib/xhr.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "addon-kit/lib/windows.js": {
+   "docsSHA256": "885891307cd3cd69cf9c5a0838503d8b4dbc7408d5a20767278de912d2e30a0c", 
+   "jsSHA256": "91881e6f7a72991fa9c9657f665c6bef5f37a465cbfb850ea15e07b8c7b312d4", 
+   "moduleName": "windows", 
+   "packageName": "addon-kit", 
+   "requirements": {
+    "api-utils/api-utils": {
+     "path": "api-utils/lib/api-utils.js"
+    }, 
+    "api-utils/events": {
+     "path": "api-utils/lib/events.js"
+    }, 
+    "api-utils/list": {
+     "path": "api-utils/lib/list.js"
+    }, 
+    "api-utils/tabs/tab": {
+     "path": "api-utils/lib/tabs/tab.js"
+    }, 
+    "api-utils/traits": {
+     "path": "api-utils/lib/traits.js"
+    }, 
+    "api-utils/unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "api-utils/window-utils": {
+     "path": "api-utils/lib/window-utils.js"
+    }, 
+    "api-utils/windows/dom": {
+     "path": "api-utils/lib/windows/dom.js"
+    }, 
+    "api-utils/windows/loader": {
+     "path": "api-utils/lib/windows/loader.js"
+    }, 
+    "api-utils/windows/tabs": {
+     "path": "api-utils/lib/windows/tabs.js"
+    }, 
+    "api-utils/xul-app": {
+     "path": "api-utils/lib/xul-app.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/addon/runner.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "ab062221e0492c4e0e698665fdc65b776d075d241803948122e8866776d18deb", 
+   "moduleName": "addon/runner", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../globals!": {
+     "path": "api-utils/lib/globals!.js"
+    }, 
+    "../system": {
+     "path": "api-utils/lib/system.js"
+    }, 
+    "../system/events": {
+     "path": "api-utils/lib/system/events.js"
+    }, 
+    "../unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "@loader": {
+     "path": "@loader"
+    }, 
+    "@packaging": {
+     "path": "@packaging"
+    }, 
+    "api-utils/l10n/html": {
+     "path": "api-utils/lib/l10n/html.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/api-utils.js": {
+   "docsSHA256": "acd5fdc9bc57bfd0731d85b0d171fdabef7d6471cb1160926e8ff6c1be0745ee", 
+   "jsSHA256": "18c9219edf012f4eb8a863139e640ea7a18817055d21a6086619d6aa08f2d887", 
+   "moduleName": "api-utils", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "api-utils/memory": {
+     "path": "api-utils/lib/memory.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/byte-streams.js": {
+   "docsSHA256": "0ed31570a32a427c27c1eed11a003dd9fdd9066d26cfc3a2e26e8b64bbdd7411", 
+   "jsSHA256": "70fb9a7ec33b9dda9b70e0d5c6b0234362e30c35f269027269b54a1d6f130eea", 
+   "moduleName": "byte-streams", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/collection.js": {
+   "docsSHA256": "fe8063b3aa9fa3fca9ee48beaf7d6c874143defe43c8792f8a79acddfb1eb853", 
+   "jsSHA256": "dd21613fd2a748fcee0510f2ce774248c03c3fa34459c5a238d9ffd9b5d1f110", 
+   "moduleName": "collection", 
+   "packageName": "api-utils", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/content.js": {
+   "docsSHA256": "517de69800a5812c55fddbe19468397590e7b4aebecd2f2dfd43dbe4c90e86ae", 
+   "jsSHA256": "0119f8c1c84d40bd8faa413aa9ce3106c86ba5c996f231f98753bff84fdb1db3", 
+   "moduleName": "content", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./content/loader": {
+     "path": "api-utils/lib/content/loader.js"
+    }, 
+    "./content/symbiont": {
+     "path": "api-utils/lib/content/symbiont.js"
+    }, 
+    "./content/worker": {
+     "path": "api-utils/lib/content/worker.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/content/content-proxy.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "b55051a55e39aeb2196fd30f242bf4f4cffd286b8fc6332d391a33b1c502a623", 
+   "moduleName": "content/content-proxy.js", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./content-proxy.js": {
+     "path": "api-utils/lib/content/content-proxy.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/content/content-worker.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "42aa78f8198b8ac9c613827ce66b6bedc4d769b304a662f991bf6fd541d5f3cb", 
+   "moduleName": "content/content-worker.js", 
+   "packageName": "api-utils", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/content/loader.js": {
+   "docsSHA256": "9a3138f55dda1e902cff69531c6be43d7e87cd30d7b9400cc8be9e83d3746c4d", 
+   "jsSHA256": "1fcb21d3e23b8d38d1054dcfa4c7a99d3f1dc77da41fc5a222dd38fb723c2f9e", 
+   "moduleName": "content/loader", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../api-utils": {
+     "path": "api-utils/lib/api-utils.js"
+    }, 
+    "../events": {
+     "path": "api-utils/lib/events.js"
+    }, 
+    "../file": {
+     "path": "api-utils/lib/file.js"
+    }, 
+    "../url": {
+     "path": "api-utils/lib/url.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/content/symbiont.js": {
+   "docsSHA256": "078c7e497332467189815c01a057f92e0cd68f805c70060733a595447336ebf9", 
+   "jsSHA256": "32a2b2decb56b45ad63e3ccee3c30bd23373d66adb36698e4974abf776d4ca1d", 
+   "moduleName": "content/symbiont", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../hidden-frame": {
+     "path": "api-utils/lib/hidden-frame.js"
+    }, 
+    "../observer-service": {
+     "path": "api-utils/lib/observer-service.js"
+    }, 
+    "../unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "./loader": {
+     "path": "api-utils/lib/content/loader.js"
+    }, 
+    "./worker": {
+     "path": "api-utils/lib/content/worker.js"
+    }, 
+    "@packaging": {
+     "path": "@packaging"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/content/worker.js": {
+   "docsSHA256": "77d6dfd1626ce26b2e10009d644f1f9f29f59497a8e1d2e6a30d5fca0a897d73", 
+   "jsSHA256": "a3b5cd3f439d63b881a4d88891bd89b92770a1f57d0106a8dee2066b932f8748", 
+   "moduleName": "content/worker", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../cortex": {
+     "path": "api-utils/lib/cortex.js"
+    }, 
+    "../events": {
+     "path": "api-utils/lib/events.js"
+    }, 
+    "../observer-service": {
+     "path": "api-utils/lib/observer-service.js"
+    }, 
+    "../sandbox": {
+     "path": "api-utils/lib/sandbox.js"
+    }, 
+    "../tabs/tab": {
+     "path": "api-utils/lib/tabs/tab.js"
+    }, 
+    "../timer": {
+     "path": "api-utils/lib/timer.js"
+    }, 
+    "../traits": {
+     "path": "api-utils/lib/traits.js"
+    }, 
+    "../unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "../url": {
+     "path": "api-utils/lib/url.js"
+    }, 
+    "../utils/object": {
+     "path": "api-utils/lib/utils/object.js"
+    }, 
+    "./content-proxy.js": {
+     "path": "api-utils/lib/content/content-proxy.js"
+    }, 
+    "./content-worker.js": {
+     "path": "api-utils/lib/content/content-worker.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/cortex.js": {
+   "docsSHA256": "dc01ce8965bf36d561bb1f61590b066f72322640ee124761535f3b8578eed126", 
+   "jsSHA256": "7765b219e1e3c39a5109135343b572dcdc0a7ea8e1d9e21354ae66720ecf4ba0", 
+   "moduleName": "cortex", 
+   "packageName": "api-utils", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/cuddlefish.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "68d3b4edc7861ef25e80e672ea98c08e53aa97a173744aa3363cf47112bf9f03", 
+   "moduleName": "cuddlefish", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "api-utils/addon/runner": {
+     "path": "api-utils/lib/addon/runner.js"
+    }, 
+    "api-utils/self!": {
+     "path": "api-utils/lib/self!.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/dom/events.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "c4fc5994b6a4e0008cf52eaaa765a5ad313155946fa5be6ffd1b83396c3b576d", 
+   "moduleName": "dom/events", 
+   "packageName": "api-utils", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/environment.js": {
+   "docsSHA256": "1a8f64c8e3f83f13a9c1fa0e1196cf65555a63fd68eaf45c440792cf8bed7479", 
+   "jsSHA256": "d96f4609263ef09f541cbe4a9df8532594fbb01f642b0af632b71c95e70c4b0c", 
+   "moduleName": "environment", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/errors.js": {
+   "docsSHA256": "e141cd31bd7d5a6fb64019470d4e24acaa7e98a449a88afd9c23b9b743e9dcc5", 
+   "jsSHA256": "a9f3c34b8f0ed4b45c08e3691f934610cf4568d0c7031073df4e8c792b4c211e", 
+   "moduleName": "errors", 
+   "packageName": "api-utils", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/event/core.js": {
+   "docsSHA256": "bfad0baf1f7b579bd5090636d39414d5847b93d2f37b2d6d8eeecdbe0f2aaba3", 
+   "jsSHA256": "c48b9cb97880955dcc1127a6740f1f153010989752d180d0fb5c34b1093d59da", 
+   "moduleName": "event/core", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../namespace": {
+     "path": "api-utils/lib/namespace.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/event/target.js": {
+   "docsSHA256": "d0b9dbac4d6e9dc2f216f2c4673f5fe2ae5f1cb2b72e61a1dd00a21e40b4fbd4", 
+   "jsSHA256": "ba97456b211cc8490ed793a4b8ab8e54d1adba08853ea4e2d82021a436e4ad85", 
+   "moduleName": "event/target", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../functional": {
+     "path": "api-utils/lib/functional.js"
+    }, 
+    "../heritage": {
+     "path": "api-utils/lib/heritage.js"
+    }, 
+    "./core": {
+     "path": "api-utils/lib/event/core.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/events.js": {
+   "docsSHA256": "40e48810b4d8d6926935abc2b7f7e49c4d1b7d51485f421bd43950bc3268d7f4", 
+   "jsSHA256": "7d52b7d9931d4f94cb2da1745165f399f9ce637df0c25969259e14140a024b73", 
+   "moduleName": "events", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./light-traits": {
+     "path": "api-utils/lib/light-traits.js"
+    }, 
+    "./traits": {
+     "path": "api-utils/lib/traits.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/events/assembler.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "d7d83af2f2b948340eb2960fc16246510f4ca594a5dda4e37e565b3f2fb747a5", 
+   "moduleName": "events/assembler", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../dom/events": {
+     "path": "api-utils/lib/dom/events.js"
+    }, 
+    "../light-traits": {
+     "path": "api-utils/lib/light-traits.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/file.js": {
+   "docsSHA256": "a508f419ab1981dcd51439dec49f5833db3d4c7cfcc396fe90386d502f03bb0d", 
+   "jsSHA256": "d9f0ff832e14d93aa74150db5f69ad57c2f28248f69d726d164cb118c8717b29", 
+   "moduleName": "file", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./byte-streams": {
+     "path": "api-utils/lib/byte-streams.js"
+    }, 
+    "./text-streams": {
+     "path": "api-utils/lib/text-streams.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/functional.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "251780f6cea3aaefcccc202ca69cce53d5a2214205dd465e7c754b126dd44dea", 
+   "moduleName": "functional", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./timer": {
+     "path": "api-utils/lib/timer.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/globals!.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "d634d17b53cdfda3bb27a8f6ac310a859d6ead84626b78e72edffb4724cc7585", 
+   "moduleName": "globals!", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./plain-text-console": {
+     "path": "api-utils/lib/plain-text-console.js"
+    }, 
+    "@packaging": {
+     "path": "@packaging"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/heritage.js": {
+   "docsSHA256": "853038c5d7fa661a8b194d0e925a4a102e8706793685d8a4489a7725dc856f4d", 
+   "jsSHA256": "4f9cab57419f5e651fc3e41dfb724694a70ee6d30187c583c3459f78e5065c70", 
+   "moduleName": "heritage", 
+   "packageName": "api-utils", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/hidden-frame.js": {
+   "docsSHA256": "8b0560532d605be15b6d2f0f487b3a1876f1c35255cb87ea47865cc6ba43dc86", 
+   "jsSHA256": "89acb3960fbc5ff9b03d48f866dadb6679b4a12decd92d9d7935051de5b6e9f4", 
+   "moduleName": "hidden-frame", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./api-utils": {
+     "path": "api-utils/lib/api-utils.js"
+    }, 
+    "./collection": {
+     "path": "api-utils/lib/collection.js"
+    }, 
+    "./errors": {
+     "path": "api-utils/lib/errors.js"
+    }, 
+    "./timer": {
+     "path": "api-utils/lib/timer.js"
+    }, 
+    "./unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "./xul-app": {
+     "path": "api-utils/lib/xul-app.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/l10n/core.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "65d705c3b231545c342b7a6e0f3c76fa35719641f7f9d69546525ca556a7d932", 
+   "moduleName": "l10n/core", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "@packaging": {
+     "path": "@packaging"
+    }, 
+    "api-utils/l10n/locale": {
+     "path": "api-utils/lib/l10n/locale.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/l10n/html.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "4c3c13c791b703cf19d1a41c71ac9f0b1a269316e11ced09a3402e157a6fff13", 
+   "moduleName": "l10n/html", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "@packaging": {
+     "path": "@packaging"
+    }, 
+    "api-utils/l10n/core": {
+     "path": "api-utils/lib/l10n/core.js"
+    }, 
+    "api-utils/system/events": {
+     "path": "api-utils/lib/system/events.js"
+    }, 
+    "api-utils/unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/l10n/locale.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "a9f7f348af3544720893a21b7466c05dec43cb9c4cac4c8bd5acea51d17c788c", 
+   "moduleName": "l10n/locale", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "chrome": {
+     "path": "chrome"
+    }, 
+    "preferences-service": {
+     "path": "api-utils/lib/preferences-service.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/light-traits.js": {
+   "docsSHA256": "5d27c215d1f1104010c0c71f3f44f79b2530e9b1afa08db6e60ef5458a3a6a77", 
+   "jsSHA256": "8d00d1661a149cf6e1ac50354418c4ac24e9d692b40ef8976ae481373d8bfb2c", 
+   "moduleName": "light-traits", 
+   "packageName": "api-utils", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/list.js": {
+   "docsSHA256": "bed383f43485384d7ecd1f330e80b57a9514fd34d84dc1242a004bfef00c4c50", 
+   "jsSHA256": "47fa2de01fecdf891bf8fee3ca7103e82d1d5ab32623513ab286b8939e56b079", 
+   "moduleName": "list", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./traits": {
+     "path": "api-utils/lib/traits.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/match-pattern.js": {
+   "docsSHA256": "698643fdfce0775aa46caebe4ac5ea6f940fad4ef020d08f064cee14fae45a75", 
+   "jsSHA256": "16f330e4d0eba08f53cf98631353552395e7f17e7273c0005273fcf9e7722518", 
+   "moduleName": "match-pattern", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./url": {
+     "path": "api-utils/lib/url.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/memory.js": {
+   "docsSHA256": "5bb4d443a8392684c9cd1e3ebf8d4c85b513a5927dd7214fdb2e631f73d01526", 
+   "jsSHA256": "f41b28860ac61fc69d05be491fc52d0babf109c25aee9a464db18bacd6b9bfd5", 
+   "moduleName": "memory", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/namespace.js": {
+   "docsSHA256": "9039b94ab6b4c3300e71e805db3ffd83948d4f7e2d84ff3e9324a86a20585f83", 
+   "jsSHA256": "0523a0c70f17b03d600920e64bca31d52e12c8a6bed0a3a7c6d87c10ae79f1d0", 
+   "moduleName": "namespace", 
+   "packageName": "api-utils", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/observer-service.js": {
+   "docsSHA256": "ae0a13f9bba2d6720722620d1481e64ac25cc647dd8ab956905e8616232f9e9a", 
+   "jsSHA256": "1ae4071afb4df9664bc34637ac54b90fa153d04be610d9ce19183a9b636847f0", 
+   "moduleName": "observer-service", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./namespace": {
+     "path": "api-utils/lib/namespace.js"
+    }, 
+    "./system/events": {
+     "path": "api-utils/lib/system/events.js"
+    }, 
+    "./unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "@packaging": {
+     "path": "@packaging"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/plain-text-console.js": {
+   "docsSHA256": "1140c5a2ea5178be883254a2afb371e1550b863adeab5434a7cba9ce9f573d1c", 
+   "jsSHA256": "42c7855906a65e3b39451245c6e5f682494bac2c6557b6ace14faecb714cbff6", 
+   "moduleName": "plain-text-console", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./traceback": {
+     "path": "api-utils/lib/traceback.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/preferences-service.js": {
+   "docsSHA256": "27027cb84f88cb611f611a713362dd64e8fc8a04d0315fbdb66462189e1fda5d", 
+   "jsSHA256": "25ef156752183357a96a61c87b2e5e6e5a250c1566e2b9af835ac84f53c60410", 
+   "moduleName": "preferences-service", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/querystring.js": {
+   "docsSHA256": "8ee744d3c379df1bb69eec598228b34d78623efd8ae02aa4b35c4437712ee51c", 
+   "jsSHA256": "f4a189249c63e83de8a8a9a3ea6d3e3d663c29d44d36c953d437fb7c6491c0bc", 
+   "moduleName": "querystring", 
+   "packageName": "api-utils", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/runtime.js": {
+   "docsSHA256": "da3d34aa242a4a1a78874ef3458f8288a8e16881679b7cfe9c7340a7af3783f6", 
+   "jsSHA256": "c890d46b04876a2bdebcc9fade057fea2ba0b484e3f0be6a8e27d6bb59e7eab3", 
+   "moduleName": "runtime.js", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/sandbox.js": {
+   "docsSHA256": "5b0f006528fc71bae1ce2b7a06b6b80f366d88b0f881c9de822f3ca47a39187f", 
+   "jsSHA256": "5d5fcb3d381de91cf2a208d82f0d84eb353b0dd69daac86ef96cd1aaefa02c75", 
+   "moduleName": "sandbox", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/self!.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "fbddbae729913f692eafdc197a15c3df9067e6a62efdfa89041cefec62cbfefe", 
+   "moduleName": "self!", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "@packaging": {
+     "path": "@packaging"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/system.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "77da3de84feb592f24d2bf326d72e45960ebcc4296f8cb49406048f87da718ea", 
+   "moduleName": "system", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./environment": {
+     "path": "api-utils/lib/environment.js"
+    }, 
+    "./file": {
+     "path": "api-utils/lib/file.js"
+    }, 
+    "./runtime.js": {
+     "path": "api-utils/lib/runtime.js"
+    }, 
+    "@packaging": {
+     "path": "@packaging"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/system/events.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "6bdbe64c8152e265072cb7c63465253c631fd5cc19691e03d028bfeca232bc29", 
+   "moduleName": "system/events", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../heritage": {
+     "path": "api-utils/lib/heritage.js"
+    }, 
+    "../namespace": {
+     "path": "api-utils/lib/namespace.js"
+    }, 
+    "../xpcom": {
+     "path": "api-utils/lib/xpcom.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/tabs/events.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "601f63124ee5fc721827f0bc7d51a0ce285ac20afd954eeb1d5ea2b3ae31c4da", 
+   "moduleName": "tabs/events", 
+   "packageName": "api-utils", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/tabs/observer.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "e21a32cd41cf9dd81010e03013a4525ccbe9382ff71b9659d0e2ecd12931cd17", 
+   "moduleName": "tabs/observer", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../events": {
+     "path": "api-utils/lib/events.js"
+    }, 
+    "../events/assembler": {
+     "path": "api-utils/lib/events/assembler.js"
+    }, 
+    "../light-traits": {
+     "path": "api-utils/lib/light-traits.js"
+    }, 
+    "../window-utils": {
+     "path": "api-utils/lib/window-utils.js"
+    }, 
+    "../windows/observer": {
+     "path": "api-utils/lib/windows/observer.js"
+    }, 
+    "./utils": {
+     "path": "api-utils/lib/tabs/utils.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/tabs/tab.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "97abe4abb0b3db46074cc34266a6fc6727beedfb8dcd122b7da951daade9bf36", 
+   "moduleName": "tabs/tab", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../api-utils": {
+     "path": "api-utils/lib/api-utils.js"
+    }, 
+    "../content/worker": {
+     "path": "api-utils/lib/content/worker.js"
+    }, 
+    "../events": {
+     "path": "api-utils/lib/events.js"
+    }, 
+    "../functional": {
+     "path": "api-utils/lib/functional.js"
+    }, 
+    "../traits": {
+     "path": "api-utils/lib/traits.js"
+    }, 
+    "../utils/data": {
+     "path": "api-utils/lib/utils/data.js"
+    }, 
+    "../utils/thumbnail": {
+     "path": "api-utils/lib/utils/thumbnail.js"
+    }, 
+    "./events": {
+     "path": "api-utils/lib/tabs/events.js"
+    }, 
+    "addon-kit/windows": {
+     "path": "addon-kit/lib/windows.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/tabs/utils.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "eac5893db13b5d07a203fd485fe656a13e6c8c647d39442d18e3b095c7870f97", 
+   "moduleName": "tabs/utils", 
+   "packageName": "api-utils", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/text-streams.js": {
+   "docsSHA256": "8e19169ffafcda9c319bb1e12068bfe2612eff2268d02765d3ea506e22c93e4d", 
+   "jsSHA256": "1290e60106ce88356cef2f78ee594082a711063351825732037542920a779225", 
+   "moduleName": "text-streams", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/timer.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "cc4ca39d4570f42755ff8fe3a2da101b0392db30e886db46578b722b4b57cfe0", 
+   "moduleName": "timer", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/traceback.js": {
+   "docsSHA256": "e08c1fd5421087d68e608f7f179d4212a08ce7460fd6939834a2ace59badefa8", 
+   "jsSHA256": "1eea45d6b1540b46d8ed296b37e9326e55e14715ec3209a0d38d99bf862f0cdd", 
+   "moduleName": "traceback", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./url": {
+     "path": "api-utils/lib/url.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/traits.js": {
+   "docsSHA256": "7e6f1fb1d18a7abbde3a61f5db0ef61b24eb3adc77a07ce012fdef5a3db25ac0", 
+   "jsSHA256": "b6b6bebf59c46adf01bcb80f8a97aa354b7a6eb912733ae5521097f25bf08fc3", 
+   "moduleName": "traits", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./traits/core": {
+     "path": "api-utils/lib/traits/core.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/traits/core.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "3a89ea0ad6095bd1e318549e622fd9a030373d04d329315a3a182e91c09614c5", 
+   "moduleName": "traits/core", 
+   "packageName": "api-utils", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/unload.js": {
+   "docsSHA256": "3eac715867dc4fabccc115e6684cf05abdef4a0542274fdfce640d682c11b6b4", 
+   "jsSHA256": "2432543d473bd53c72b0b5e4acb6de9fb3f34b5297fc900c3d7faa3bc31ffd88", 
+   "moduleName": "unload", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./system/events": {
+     "path": "api-utils/lib/system/events.js"
+    }, 
+    "@packaging": {
+     "path": "@packaging"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/url.js": {
+   "docsSHA256": "40ece4f227368bea31efc12f5b050564b5ef0fec0102fe93edf2dc42ddda0c0d", 
+   "jsSHA256": "1d7259d85252f34bc0a04adfae30cda97a2e7d49b2070087e9da72b746348ce2", 
+   "moduleName": "url", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/utils/data.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "b81a92a26b0f23e020bc873cab8af18062107b3a54a941dae3968e2cdf07b6dd", 
+   "moduleName": "utils/data", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/utils/object.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "021787f0d120106d31e01bd10a01f03d6247804ea832faced3bf42bd67a8b48a", 
+   "moduleName": "utils/object", 
+   "packageName": "api-utils", 
+   "requirements": {}, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/utils/registry.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "cc3ace2ff3d695e838358221518afa8cb5ea80bac362e75c737bf27e0d93e405", 
+   "moduleName": "utils/registry", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../events": {
+     "path": "api-utils/lib/events.js"
+    }, 
+    "../unload": {
+     "path": "api-utils/lib/unload.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/utils/thumbnail.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "c4026174e3c2ee56ef1a7cc85fe6736db4f3de4249c9c9fb2e896b4d8aa9fec2", 
+   "moduleName": "utils/thumbnail", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/uuid.js": {
+   "docsSHA256": "7c1e57b8153ecb1c87de5fdd686684e0017d2ba16f43c647d629edf638a7f718", 
+   "jsSHA256": "f0dee5801e578994f6c69db12713062a103c380ed55aa0632a1f02c14a9d2a32", 
+   "moduleName": "uuid", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/window-utils.js": {
+   "docsSHA256": "6def0e8ecd7d26430c348350c7ba0fb523b0f634cba8a5a66496e6650fca7236", 
+   "jsSHA256": "9cb53ff91b455a0796a3f638f8efc9cdffc83f925c8ee21a611ed7d11c36fbff", 
+   "moduleName": "window-utils", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./errors": {
+     "path": "api-utils/lib/errors.js"
+    }, 
+    "./events": {
+     "path": "api-utils/lib/events.js"
+    }, 
+    "./traits": {
+     "path": "api-utils/lib/traits.js"
+    }, 
+    "./unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "./window-utils": {
+     "path": "api-utils/lib/window-utils.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }, 
+    "window/utils": {
+     "path": "api-utils/lib/window/utils.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/window/utils.js": {
+   "docsSHA256": "ba992c29e00ecd26995e3bd34d590ade419e5fd42256803c1412e5b43285b670", 
+   "jsSHA256": "8f55e9bbb2294d79162b41a811378b443723c60b9127d4085a7c71d9afac8ae4", 
+   "moduleName": "window/utils", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "api-utils/observer-service": {
+     "path": "api-utils/lib/observer-service.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/windows/dom.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "eaa2464f4e5aeed9f3d4e068036073ec4a2a4848566e71f31057956350c38ba2", 
+   "moduleName": "windows/dom", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../traits": {
+     "path": "api-utils/lib/traits.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/windows/loader.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "efd6ed41deec689db50dc09024fdd2d8ddcb8338f53b65a25447f2a38fa78c85", 
+   "moduleName": "windows/loader", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../timer": {
+     "path": "api-utils/lib/timer.js"
+    }, 
+    "../traits": {
+     "path": "api-utils/lib/traits.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/windows/observer.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "4d72a1ba896960fba2742863aaa62b04de11a84eb7b321196be884ebfa7a40cc", 
+   "moduleName": "windows/observer", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../events": {
+     "path": "api-utils/lib/events.js"
+    }, 
+    "../events/assembler": {
+     "path": "api-utils/lib/events/assembler.js"
+    }, 
+    "../light-traits": {
+     "path": "api-utils/lib/light-traits.js"
+    }, 
+    "../window-utils": {
+     "path": "api-utils/lib/window-utils.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/windows/tabs.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "2a5b7cad67dd079a05c1ad16e614c2998f60232c74c76200018955d51fcf47be", 
+   "moduleName": "windows/tabs", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "../events": {
+     "path": "api-utils/lib/events.js"
+    }, 
+    "../list": {
+     "path": "api-utils/lib/list.js"
+    }, 
+    "../tabs/events": {
+     "path": "api-utils/lib/tabs/events.js"
+    }, 
+    "../tabs/observer": {
+     "path": "api-utils/lib/tabs/observer.js"
+    }, 
+    "../tabs/tab": {
+     "path": "api-utils/lib/tabs/tab.js"
+    }, 
+    "../tabs/utils": {
+     "path": "api-utils/lib/tabs/utils.js"
+    }, 
+    "../traits": {
+     "path": "api-utils/lib/traits.js"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/xhr.js": {
+   "docsSHA256": "9b8396c6fe87db0a4cbb9c34192dc66b5950cb52266387ae3f0e46b030ef1288", 
+   "jsSHA256": "84be6976f23c885e91b236fb9b494875b73216c66393a78f0b771404dd3c9cbb", 
+   "moduleName": "xhr", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "api-utils/memory": {
+     "path": "api-utils/lib/memory.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/xpcom.js": {
+   "docsSHA256": "21651e6c0c6710f081701a1ad191a20ab67b7a86f758fbc1236ae39d12783524", 
+   "jsSHA256": "3b31a0529b0cd0171cea5938b73ca28a09d217e6c7d6765606513facbc6cae94", 
+   "moduleName": "xpcom", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "./heritage": {
+     "path": "api-utils/lib/heritage.js"
+    }, 
+    "./runtime": {
+     "path": "api-utils/lib/runtime.js"
+    }, 
+    "./unload": {
+     "path": "api-utils/lib/unload.js"
+    }, 
+    "./utils/object": {
+     "path": "api-utils/lib/utils/object.js"
+    }, 
+    "./uuid": {
+     "path": "api-utils/lib/uuid.js"
+    }, 
+    "./xul-app": {
+     "path": "api-utils/lib/xul-app.js"
+    }, 
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "api-utils/lib/xul-app.js": {
+   "docsSHA256": "a8a75f8986992cdfd4bb75e446bad60d01257a4df65dd07c9db050d90be536e6", 
+   "jsSHA256": "712b929399b525bf49eb95af4c2f91a5500d0c0a739ff87a7c5acf333dada3e9", 
+   "moduleName": "xul-app", 
+   "packageName": "api-utils", 
+   "requirements": {
+    "chrome": {
+     "path": "chrome"
+    }
+   }, 
+   "sectionName": "lib"
+  }, 
+  "canned-responses-for-thunderbird-forums/lib/main.js": {
+   "docsSHA256": null, 
+   "jsSHA256": "73bded107bb7f0fa63e060fb2d00cfdd7d2db9b8eab7a2e163d2aa823704624f", 
+   "moduleName": "main", 
+   "packageName": "canned-responses-for-thunderbird-forums", 
+   "requirements": {
+    "page-mod": {
+     "path": "addon-kit/lib/page-mod.js"
+    }, 
+    "request": {
+     "path": "addon-kit/lib/request.js"
+    }, 
+    "self": {
+     "dataURIPrefix": "canned-responses-for-thunderbird-forums/data/", 
+     "mapName": "canned-responses-for-thunderbird-forums-data", 
+     "mapSHA256": "c5078e06467da19f7750235c163257de1c1c49556c9e256cc2e55fa32f5f4435", 
+     "path": "self"
+    }
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-kit": {
+   "author": "Atul Varma (http://toolness.com/) <atul@mozilla.com>", 
+   "contributors": [
+    "Myk Melez (http://melez.com/) <myk@mozilla.org>", 
+    "Daniel Aquino <mr.danielaquino@gmail.com>"
+   ], 
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "platform", 
+    "xulrunner", 
+    "jetpack-high-level"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-kit"
+  }, 
+  "api-utils": {
+   "author": "Atul Varma (http://toolness.com/) <atul@mozilla.com>", 
+   "contributors": [
+    "Myk Melez (http://melez.com/) <myk@mozilla.org>", 
+    "Daniel Aquino <mr.danielaquino@gmail.com>"
+   ], 
+   "description": "Foundational infrastructure and utilities.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "platform", 
+    "xulrunner", 
+    "jetpack-low-level"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "api-utils"
+  }, 
+  "canned-responses-for-thunderbird-forums": {
+   "author": "tobbi", 
+   "description": "Canned responses for the getsatisfaction.com Thunderbird forums", 
+   "main": "main", 
+   "name": "canned-responses-for-thunderbird-forums", 
+   "version": "initial.rev426"
+  }
+ }, 
+ "name": "canned-responses-for-thunderbird-forums", 
+ "sdkVersion": "1.8", 
+ "staticArgs": {}, 
+ "verbose": false
+}

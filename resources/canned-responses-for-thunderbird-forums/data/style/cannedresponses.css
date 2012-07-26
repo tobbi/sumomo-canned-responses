@@ -1,0 +1,170 @@
+/* Bug 755606: I hate you for doing this, but, adding !important to make sure
+these styles are not overriden by page styles */
+
+.btn-cannedresponses {
+    /*background-image: url(../img/icon.magic-hat.png) !important;*/
+    position: relative;
+    top: -5.7em;
+    float: right;
+    cursor: pointer;
+}
+
+#filter-responses-field {
+    width: 18em !important;
+}
+
+#media-modal {
+    height:30em !important;
+    width:45em !important;
+}
+
+#response-list-area {
+    border-right: 1px dashed silver !important;
+    float: left !important;
+    margin-left: 21.5% !important;
+    text-align: center !important;
+    width: 27% !important;
+}
+
+#response-list-area.filtered {
+    margin-left: -15px !important;
+    width: 51% !important;
+}
+
+.category-list,
+.response-list,
+.response-preview-rendered .content {
+    height: 88% !important;
+    overflow-y: auto !important;
+}
+
+#responses-area {
+    border-right: 1px dashed silver !important;
+    margin-left: -15px !important;
+    padding-right: 0.2em !important;
+    text-align: center !important;
+    width: 23% !important;
+}
+
+#responses-area.filtered {
+    display: none !important;
+}
+
+.category-list {
+    font-size: 12px !important;
+}
+
+#response-list-area .heading-label,
+#responses-area .heading-label {
+    margin-bottom: 5px !important;
+    margin-top: 0 !important;
+    text-align: center !important;
+}
+
+.preview-label {
+    display: inline !important;
+    padding-left: 20px !important;
+}
+
+.search {
+    text-align: center !important;
+}
+
+.status-indicator {
+    list-style: none !important; 
+    text-align: left !important;
+}
+
+.area {
+    bottom: 3.5em !important;
+    position: absolute !important;
+    top: 6.5em !important;
+}
+
+#response-content-area {
+    float: right !important;
+    left: 52% !important;
+    width: 48% !important;
+}
+
+.response-preview {
+    height: 88% !important;
+}
+.response-preview-rendered {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    height: 95% !important;
+    margin-top: 0.5em !important;
+    width: 99% !important;
+}
+
+.response-preview-rendered .content {
+    background-color: white !important;
+    border: 1px solid #CCCCCC !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+    color: #666666 !important;
+    padding: 1em 2em !important;
+    width: 82% !important;
+}
+
+#response-content {
+    height: 95% !important;
+    width: 95% !important;
+}
+
+.status-indicator {
+    padding-left: 18px !important;
+}
+
+.preview-label.busy,
+.status-indicator.busy {
+    background-image: url(https://support.mozilla.org/media/img/customercare/spinner.gif) !important;
+    background-repeat: no-repeat !important;
+}
+
+.response-heading,
+.response {
+    border-radius: 0 5px 5px 0 !important;
+    color: #0051B9 !important;
+    cursor: pointer !important;
+    font-size: 12px !important;
+    list-style: none !important;
+    margin-bottom: 5px !important;
+    padding: 3px !important;
+}
+
+.response-heading.selected,
+.response.selected {
+    background-color: #5784bf !important;
+    color: white !important;
+}
+
+.response {
+    cursor: pointer !important;
+    font-size: 12px !important;
+    list-style: none !important;
+    margin-bottom: .5em !important;
+}
+
+.response a:hover {
+    text-decoration: none !important;
+}
+
+#response-submit-area {
+    margin-top: 22.7em !important;
+    width: 99% !important;
+}
+
+#response-submit-area .button {
+    cursor: pointer;
+    float: right !important;
+    margin-left: 8px !important;
+    margin-top: 0 !important;
+    width: 8em;
+}
+
+#response-content-area .toggle-view {
+    float: right !important;
+    margin: -0.5em 0.5em 0.5em 0 !important;
+}
